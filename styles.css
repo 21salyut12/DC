@@ -1,0 +1,18 @@
+:root {
+    --clr: #49fb35;
+}
+
+html {
+    box-sizing: border-box;
+    background: black;
+}
+
+#clock {
+    font-size: 115px;
+    width: 100vw;
+    margin: 25% auto;
+    text-align: center;
+    border: 2px solid var(--clr);
+    border-radius: 20px;
+    color: var(--clr);
+}
